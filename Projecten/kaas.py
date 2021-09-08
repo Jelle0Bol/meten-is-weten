@@ -5,3 +5,6 @@ if getal > 300:
 elif getal < 300:
     getal = str(getal)
     print(getal + ' is het kleinste getal')
+else:
+    getal = 300
+    print('Jouw getal is gelijk aan 300!')
