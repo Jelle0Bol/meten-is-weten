@@ -1,31 +1,31 @@
 ant = input('is de kaas geel? Beantwoord met ja of nee. ')
-if ant == ("ja"):
+if ant.lower() == ("ja"):
     ant = input ('heeft de kaas gaten?')
-    if ant == ("ja"):
+    if ant.lower() == ("ja"):
         ant = input ("is de kaas ongelofelijk duur?")
-        if ant == ("ja"):
+        if ant.lower() == ("ja"):
             print ("Emmenthaler")
-        elif ant == ("nee"):
+        elif ant.lower() == ("nee"):
             print ("Leerdammer")
-    elif ant == ("nee"):
+    elif ant.lower() == ("nee"):
         ant = input ("is de kaas hard als steen?")
-        if ant == ("ja"):
+        if ant.lower() == ("ja"):
             print ("Pammigiano Reggiano")
-        elif ant == ("nee"):
+        elif ant.lower() == ("nee"):
             print ("Goudse kaas")
-elif ant == ("nee"):
+elif ant.lower() == ("nee"):
     ant = input ('heeft de kaas blauwe schimmels?')
-    if ant == ("ja"):
+    if ant.lower() == ("ja"):
         ant = input ('heeft de kaas een korst?')
-        if ant == ("ja"):
+        if ant.lower() == ("ja"):
             print ('Bleu de rochbaron')
-        elif ant == ("nee"):
+        elif ant.lower() == ("nee"):
             print ("Foume d.ambert")
-    elif ant == ("nee"):
+    elif ant.lower() == ("nee"):
         ant = input ("heeft de kaas een korst?") 
-        if ant == ("ja"):
+        if ant.lower() == ("ja"):
             print ("Camembert") 
-        elif ant == ("nee"):
+        elif ant.lower() == ("nee"):
             print ("Mozzarella")
 else:
     print ("Gebruik alleen ja of nee AUB")
