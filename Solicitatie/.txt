@@ -1,0 +1,1 @@
+(dressuur >= 4 or jongleren >= 5 or acrobatiek >= 3) and mbo == "ja" and rijbewijs == "ja" and hoed == "ja":
